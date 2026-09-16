@@ -1,0 +1,49 @@
+\documentclass[13pt,letter,Script MT Bold]{moderncv} 
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+
+\usepackage{ragged2e}
+\usepackage[scale=0.78]{geometry} \setlength{\hintscolumnwidth}{2cm} 
+
+
+\input{config/personal}
+\input{config/job}
+
+\firstname{\textbf{\MyNickName (\MyFirstName)}}
+\familyname{\textbf{\MyLastName}}
+
+\begin{document}
+
+
+
+\mobile{ \textbf{\MyPhone}}
+\email{\MyEmail}
+\homepage{\MyWebsite}
+\social[github]{\MyGithub}
+\social[linkedin]{\MyLinkedIn}
+
+
+
+\clearpage
+
+\date{\today} % Letter date
+\opening{Dear Human Resource Department,} 
+\closing{Sincerely yours,} 
+
+\makelettertitle 
+
+\justify
+
+I am writing to express my strong interest in the \textit{\JobPosition} position, as advertised. With my solid background in hardware, along with my hands-on experience in developing and implementing machine learning models and software, I am confident in my ability to contribute to your team's success.
+
+In my previous role as a research assistant at the University of New Brunswick, I played a role in a federally funded project to create the world's first pressure-based gait biometric system. I have worked on selecting features, optimizing classifiers, and enhancing data collection procedures. My proficiency in Python and familiarity with libraries like \textit{TensorFlow}, \textit{Pandas}, and \textit{scikit-learn} equip me to tackle complex data analysis tasks easily.
+
+Furthermore, my communication skills, both verbal and written, have been honed through my work as a teaching assistant for Embedded Systems and Signals and Systems courses at the University of New Brunswick. I have effectively and clearly presented complex technical concepts.
+
+With 3 years of relevant experience and a passion for \JobPosition, I am excited about the opportunity to contribute my skills and expertise to your team. I am eager to discuss how my background aligns with your requirements and how I can help achieve your data-driven goals. Thank you for considering my application. I look forward to joining your team and contributing to your projects.
+
+\makeletterclosing
+
+
+\end{document}

@@ -1,0 +1,44 @@
+\documentclass[11pt,letter,Script MT Bold]{moderncv}
+
+\usepackage{moderncv/moderncvcolorblue}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+
+\usepackage[scale=0.88]{geometry}
+\usepackage{ragged2e}
+
+\input{config/personal}
+\input{config/job}
+
+\firstname{\textbf{\MyNickName {\Large ({\MyFirstName})}}}
+\familyname{\textbf{\MyLastName}}
+
+% \title{\textsc{\textbf{Curriculum Vit\ae}}}
+\title{\textsc{\textbf{\normalsize \Title}}}
+
+
+\begin{document}
+
+\mobile{ \textbf{\MyPhone}}
+\email{\MyEmail}
+\homepage{\MyWebsite}
+\social[github]{\MyGithub}
+\social[linkedin]{\MyLinkedIn}
+
+\makecvtitle
+
+
+\input{sections/summary}
+\input{sections/skills}
+\input{sections/experience}
+\input{sections/projects}
+\input{sections/educations}
+\input{sections/certification}
+\input{sections/publications}
+\input{sections/awards}
+\input{sections/language}
+\input{sections/volunteer}
+
+\end{document}
